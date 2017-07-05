@@ -41,11 +41,11 @@
         input wire iEn
     );
 
-    wire [C_VER_WIDTH - 1 : 0] vCounter;
-    wire [C_VER_WIDTH - 1 : 0] vPeriod;
+    wire [C_VER_WIDTH + 1 : 0] vCounter;
+    wire [C_VER_WIDTH + 1 : 0] vPeriod;
     
-    wire [C_HOR_WIDTH - 1 : 0] hCounter;
-    wire [C_HOR_WIDTH - 1 : 0] hPeriod;
+    wire [C_HOR_WIDTH + 1 : 0] hCounter;
+    wire [C_HOR_WIDTH + 1 : 0] hPeriod;
     
     reg hEnabler;
     reg vEnabler;
